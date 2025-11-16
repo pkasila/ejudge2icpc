@@ -13,7 +13,7 @@ It was created specifically for the Belarusian Regional Contest 2025.
 Run the script with Python 3:
 
 ```bash
-python irunner2icpc_converter.py <input_xml_file> <output_directory>
+python ejudge2icpc.py <input_xml_file> <output_directory>
 ```
 
 - `<input_xml_file>`: Path to the iRunner export XML file (e.g., `brc25m-ejudge.xml`).
