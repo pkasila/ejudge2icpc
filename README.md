@@ -1,6 +1,6 @@
-# iRunner to ICPC Converter
+# Ejudge to ICPC Converter
 
-This script converts contest data exported from iRunner (an ejudge-compatible system) into the ICPC Contest Package Format, which is compatible with the ICPC Resolver.
+This script converts contest data exported from Ejudge (more specifically, ejudge-compatible iRunner export format) into the ICPC Contest Package Format, which is compatible with the ICPC Resolver.
 
 ## Description
 
