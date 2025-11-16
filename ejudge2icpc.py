@@ -90,7 +90,7 @@ def create_icpc_package(xml_file_path: str, output_dir: str) -> None:
     with open(os.path.join(output_dir, 'event-feed.ndjson'), 'w', encoding='utf-8') as f:
         print("Writing complete contest definition to event feed...")
         
-        # CORRECTED: Create a single, comprehensive contest event with all parameters
+        # Create a contest event with all parameters
         contest_data = {
             "id": contest_info.get('contest_id'),
             "name": contest_info.find('name').text,
